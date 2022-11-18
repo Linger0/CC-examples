@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  cv::Mat img_raw = cv::imread("raw.jpg", cv::IMREAD_GRAYSCALE);
+  cv::Mat img_raw = cv::imread("../raw.jpg", cv::IMREAD_GRAYSCALE);
   cv::Mat img_out;
   img_out.create(img_raw.size(), img_raw.type());
 
